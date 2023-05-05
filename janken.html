@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【提出】ワンピースごっこ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSSを新たに追加 -->
+</head>
+<body>
+    <h1>ワンピースごっこ</h1>
+    <h2>🚀全員で握り拳（👊）をあげたら成功🚀</h2>
+    <div id="likea"><img src="img/onepiece_like.png" alt=""></div>
+
+
+    <!-- 遊ぶ人数を１人から最大７人まで増やす -->
+    <div class="joins">
+        <h2>▼1st STEP：何人を呼ぶ？</h2>
+            <button id="join0">自分だけ（寂）</button>
+            <button id="join1">１人呼ぶ</button>
+            <button id="join2">２人呼ぶ</button>
+            <button id="join3">３人呼ぶ</button>
+            <button id="join4">４人呼ぶ</button>
+            <button id="join5">５人呼ぶ</button>
+            <button id="join6">６人呼ぶ</button>
+
+    </div>
+    <div class="btns">
+        <h2>▼2nd STEP：何人で遊ぶ？ </h2>
+            <button id="reset-button">リセット</button>
+            <button id="add1">2人で挑戦</button>
+            <button id="add2">3人で挑戦</button>
+            <button id="add3">4人で挑戦</button>
+            <button id="add4">5人で挑戦</button>
+            <button id="add5">6人で挑戦</button>
+            <button id="add6">7人で挑戦</button>
+    </div>
+    <h2 id="game">結果は…グーが<span id="gunum">何</span>個、<span id="judge">「……」</span></h2>
+
+
+    <div>
+        <div class="players">
+            <ul class="grid">
+                <li>
+                    <div id="my_hands">？？？</div>
+                    <img src="img/nigaoe_hasegawa_heizou.png" alt="">
+                    <p>あなた（グー行司）</p>
+                </li>
+                <li class="player1">
+                    <div id="cpu_hands1">？？？</div>
+                    <img src="img/onepiece01_luffy.png" alt="">
+                    <p>ルフィさん</p>
+                </li>
+                <li class="player2">
+                    <div id="cpu_hands2">？？？</div>
+                    <img src="img/onepiece02_zoro_bandana.png" alt="">
+                    <p>ゾロさん</p>
+                </li>
+                <li class="player3">
+                    <div id="cpu_hands3">？？？</div>
+                    <img src="img/onepiece03_nami.png" alt="">
+                    <p>ナミさん</p>
+                </li>
+                <li class="player4">
+                    <div id="cpu_hands4">？？？</div>
+                    <img src="img/onepiece04_usopp_sogeking.png" alt="">
+                    <p>そげキングさん</p>
+                </li>
+                <li class="player5">
+                    <div id="cpu_hands5">？？？</div>
+                    <img src="img/onepiece05_sanji.png" alt="">
+                    <p>サンジさん</p>
+                </li>
+                <li class="player6">
+                    <div id="cpu_hands6">？？？</div>
+                    <img src="img/onepiece06_chopper.png" alt="">
+                    <p>チョッパーさん</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- jqueryを先に記載する -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

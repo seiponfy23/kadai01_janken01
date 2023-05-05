@@ -1,0 +1,46 @@
+body {
+    margin:0 50px 0 50px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    margin: 0px 50px 0px 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.grid img {
+    width: 100px;
+    height: 100px;
+}
+
+.player1,.player2,.player3,.player4,.player5,.player6 {
+    display: none;
+}
+
+
+#add1,#add2,#add3,#add4,#add5,#add6 {
+    display: none;
+}
+
+#reset-button {
+    display: none;
+}
+
+#game {
+    display: none;
+}
+
+#likea {
+    margin:0 auto;
+    display: none;
+}
+
+.refer img {
+    width: 100px;
+}
+
+
+
+
